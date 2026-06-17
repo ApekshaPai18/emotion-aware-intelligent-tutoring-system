@@ -1,0 +1,3059 @@
+{
+  "q_table": {
+    "[\"Neutral\", \"Confused\", 0, 0, true]": {
+      "normal": -0.60892,
+      "hint": -0.7000000000000001,
+      "repeat": -0.7000000000000001,
+      "simplify": -0.7000000000000001,
+      "motivate": -0.7000000000000001
+    },
+    "[\"Neutral\", \"Neutral\", 0, 0, true]": {
+      "normal": 20.222888576452988,
+      "hint": -0.7071490251600047,
+      "repeat": 2.4365287757692418,
+      "simplify": -0.7134191001177008,
+      "motivate": 2.3817400475311796
+    },
+    "[\"Neutral\", \"Confused\", 0, 1, true]": {
+      "normal": -0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 0, 1, true]": {
+      "normal": 10.72018986844492,
+      "hint": -1.010469405991992,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 0, 0, true]": {
+      "normal": 17.12359131444492,
+      "hint": -0.5,
+      "repeat": -0.7683111995,
+      "simplify": 0.7623539774410187,
+      "motivate": -0.5
+    },
+    "[\"Neutral\", \"Happy\", 0, 1, true]": {
+      "normal": 11.968162969492115,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 1, 1, true]": {
+      "normal": 2.951410434715842,
+      "hint": -0.5686232327484001,
+      "repeat": 0.0,
+      "simplify": -1.11084,
+      "motivate": -0.6000000000000001
+    },
+    "[\"Neutral\", \"Confused\", 1, 1, true]": {
+      "normal": -0.8,
+      "hint": -0.8,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 1, 0, true]": {
+      "normal": 6.310522563166247,
+      "hint": -0.7394390444145331,
+      "repeat": -1.4315393466919293,
+      "simplify": -0.38408875851466845,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 2, 1, true]": {
+      "normal": 0.3599999999999999,
+      "hint": -0.6000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 2, 0, true]": {
+      "normal": 7.446580112775209,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.38990163116290993,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 3, 0, true]": {
+      "normal": 2.45723729041,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Neutral\", 4, 0, true]": {
+      "normal": 3.940399,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 1, 0, true]": {
+      "normal": 8.16045178803697,
+      "hint": -0.6986440570832267,
+      "repeat": -0.9950000000000001,
+      "simplify": -0.815008469405,
+      "motivate": -0.5
+    },
+    "[\"Neutral\", \"Sad\", 1, 0, true]": {
+      "normal": 2.698522735998403,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Sad\", 0, 0, true]": {
+      "normal": 7.588849903631736,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Sad\", 0, 1, true]": {
+      "normal": 3.4306965070000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Sad\", 1, 1, true]": {
+      "normal": -0.8963,
+      "hint": -0.8,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 1, 1, true]": {
+      "normal": -0.8940894000000004,
+      "hint": -1.194,
+      "repeat": -0.6000000000000001,
+      "simplify": -0.6000000000000001,
+      "motivate": -0.6000000000000001
+    },
+    "[\"Neutral\", \"Happy\", 0, 2, true]": {
+      "normal": 1.6673192000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 1, 2, true]": {
+      "normal": 0.16999999999999993,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.7000000000000001
+    },
+    "[\"Neutral\", \"Sad\", 2, 0, true]": {
+      "normal": 2.37608,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Sad\", 3, 0, true]": {
+      "normal": 2.37608,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Sad\", 4, 0, true]": {
+      "normal": 2.37608,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 2, 0, true]": {
+      "normal": 5.8519850599000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 3, 0, true]": {
+      "normal": 2.4553990000000003,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 4, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"No Face\", 0, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"No Face\", 1, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"No Face\", 2, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"No Face\", 3, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"No Face\", 4, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"Neutral\", \"Happy\", 2, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 0, 0, true]": {
+      "normal": 5.780841522573117,
+      "hint": -1.4966639577787169,
+      "repeat": -0.7818748839689953,
+      "simplify": -0.992322399031207,
+      "motivate": -1.2353245394703067
+    },
+    "[\"No Face\", \"Neutral\", 1, 0, true]": {
+      "normal": 1.7621713429848957,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.81283505
+    },
+    "[\"No Face\", \"Neutral\", 2, 0, true]": {
+      "normal": 5.325391460497533,
+      "hint": -0.5,
+      "repeat": -0.5,
+      "simplify": -0.5,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Happy\", 0, 0, true]": {
+      "normal": 0.03255169000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Happy\", 0, 1, true]": {
+      "normal": 2.67309,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.519,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 1, 1, true]": {
+      "normal": 7.096882378630493,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Happy\", 1, 0, true]": {
+      "normal": -0.5,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 0, 1, true]": {
+      "normal": 8.694527677087557,
+      "hint": -0.9470547600000001,
+      "repeat": -0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 2, 1, true]": {
+      "normal": 1.8634807472400001,
+      "hint": -0.6000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.6000000000000001
+    },
+    "[\"No Face\", \"Happy\", 1, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": -0.6000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 3, 1, true]": {
+      "normal": 0.3599999999999999,
+      "hint": -0.6000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 0, 0, true]": {
+      "normal": 7.227681847607456,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 1, 0, true]": {
+      "normal": 0.5896495,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 2, 0, true]": {
+      "normal": 0.55,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 3, 0, true]": {
+      "normal": 4.900995010000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 4, 0, true]": {
+      "normal": 1.9767241000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 5, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Happy\", 3, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 4, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Frustrated\", 0, 0, true]": {
+      "normal": -0.5,
+      "hint": -0.5,
+      "repeat": -0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 3, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 5, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 6, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 7, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 8, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 9, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Sad\", 0, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 4, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 5, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 6, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 7, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"No Face\", \"Neutral\", 8, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 0, 0, true]": {
+      "normal": 7.137705506751573,
+      "hint": 0.16533696293518813,
+      "repeat": 0.36370827306022885,
+      "simplify": 0.9592240741350037,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 1, 0, true]": {
+      "normal": 3.169773392540612,
+      "hint": -0.6670768420934408,
+      "repeat": -0.11755983539571968,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 2, 0, true]": {
+      "normal": 8.519694108597546,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 3, 0, true]": {
+      "normal": 7.178125251635911,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 4, 0, true]": {
+      "normal": 5.736055027534411,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 5, 0, true]": {
+      "normal": 2.0037644500000003,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 0, 0, true]": {
+      "normal": 8.634406142799795,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": -0.18540897345466037,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 1, 0, true]": {
+      "normal": 5.696263814427442,
+      "hint": 0.0,
+      "repeat": -0.4804035217636504,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 1, 0, true]": {
+      "normal": 0.044500000000000095,
+      "hint": -0.5,
+      "repeat": -0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 0, 0, true]": {
+      "normal": 4.84316033310649,
+      "hint": -0.6833044010204159,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 3, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 6, 0, true]": {
+      "normal": 4.900995010000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 7, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 8, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 9, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 0, 1, true]": {
+      "normal": 3.0223976400000003,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 0, 1, true]": {
+      "normal": 0.07846086880342373,
+      "hint": 0.0,
+      "repeat": -0.9413849120017832,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 1, 1, true]": {
+      "normal": 0.5762091,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 2, 1, true]": {
+      "normal": 1.1730899999999997,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 3, 1, true]": {
+      "normal": 2.0613590999999998,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 4, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 5, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 6, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 7, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 2, 0, true]": {
+      "normal": 5.424039537445,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 4, 0, true]": {
+      "normal": 4.900995010000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 5, 0, true]": {
+      "normal": 3.4308450100000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 0, 1, true]": {
+      "normal": 3.773517393232395,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 1, 1, true]": {
+      "normal": 0.6807599999999999,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 2, 1, true]": {
+      "normal": 1.1730899999999997,
+      "hint": 0.0,
+      "repeat": -0.519,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 4, 1, true]": {
+      "normal": 1.791,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 5, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 6, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 1, 1, true]": {
+      "normal": 0.630710511901929,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.517833842271
+    },
+    "[\"neutral\", \"Neutral\", 0, 2, true]": {
+      "normal": 4.68158804792,
+      "hint": 0.0,
+      "repeat": -0.416291272,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 1, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 3, 0, true]": {
+      "normal": 4.900995010000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"Happy\", 6, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 1, 2, true]": {
+      "normal": 3.3156205217000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 2, 2, true]": {
+      "normal": -0.7000000000000001,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.7000000000000001
+    },
+    "[\"neutral\", \"Neutral\", 0, 3, true]": {
+      "normal": 1.2976630000000002,
+      "hint": -0.8,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"Neutral\", 1, 3, true]": {
+      "normal": -0.8,
+      "hint": -0.8,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"Surprise\", 0, 0, true]": {
+      "normal": 0.0,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"Sad\", 0, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 0, true]": {
+      "normal": 0.0,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": -0.95,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 1, true]": {
+      "normal": 1.8874037114723192,
+      "hint": -0.6000000000000001,
+      "repeat": 0.0,
+      "simplify": -0.9788100000000001,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 2, true]": {
+      "normal": 3.3402919624351557,
+      "hint": -0.47420096628032804,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.7000000000000001,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 3, true]": {
+      "normal": 0.7000000000000001,
+      "hint": 0.0,
+      "repeat": -0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 4, true]": {
+      "normal": 1.78206,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 4, true]": {
+      "normal": 0.6000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.9
+    },
+    "[\"happy\", \"happy\", 0, 5, true]": {
+      "normal": 0.5,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -1.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 6, true]": {
+      "normal": 0.4,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 6, true]": {
+      "normal": 0.4,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 6, true]": {
+      "normal": 0.84079402396,
+      "hint": -1.02836,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 6, true]": {
+      "normal": 0.796,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.1
+    },
+    "[\"happy\", \"happy\", 0, 7, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -1.2000000000000002,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 8, true]": {
+      "normal": -0.7918000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 8, true]": {
+      "normal": 0.398,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 8, true]": {
+      "normal": 0.398,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 8, true]": {
+      "normal": 0.398,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 0, true]": {
+      "normal": -0.02965001494999986,
+      "hint": -0.5,
+      "repeat": -0.5,
+      "simplify": -0.5,
+      "motivate": -0.5
+    },
+    "[\"neutral\", \"neutral\", 1, 2, true]": {
+      "normal": 0.1673191999999999,
+      "hint": -0.7000000000000001,
+      "repeat": -0.6849412720000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 3, true]": {
+      "normal": -0.30900814369999985,
+      "hint": 0.0,
+      "repeat": -0.8,
+      "simplify": -0.7370000000000001,
+      "motivate": -0.8
+    },
+    "[\"neutral\", \"neutral\", 1, 3, true]": {
+      "normal": 0.6819999999999999,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 4, true]": {
+      "normal": 1.5968211,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.9,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 5, true]": {
+      "normal": -0.8613999999999999,
+      "hint": -1.0,
+      "repeat": 0.0,
+      "simplify": -1.0,
+      "motivate": -1.0
+    },
+    "[\"neutral\", \"neutral\", 0, 6, true]": {
+      "normal": 2.34079402396,
+      "hint": -1.1,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 7, true]": {
+      "normal": -0.60897,
+      "hint": -1.2000000000000002,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 9, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.4000000000000001
+    },
+    "[\"neutral\", \"neutral\", 0, 10, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 10, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -1.5,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 11, true]": {
+      "normal": -0.1,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 11, true]": {
+      "normal": -0.1,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 11, true]": {
+      "normal": -0.1,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 11, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -1.6,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 12, true]": {
+      "normal": -0.2,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 12, true]": {
+      "normal": -0.2,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 12, true]": {
+      "normal": 0.0,
+      "hint": -1.7000000000000002,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 0, 13, true]": {
+      "normal": -0.30000000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 13, true]": {
+      "normal": -0.30000000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 1, true]": {
+      "normal": 0.29100000000000004,
+      "hint": 0.0,
+      "repeat": 0.38619000000000003,
+      "simplify": 0.0,
+      "motivate": -0.6000000000000001
+    },
+    "[\"neutral\", \"neutral\", 1, 4, true]": {
+      "normal": 0.3246000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.9,
+      "motivate": -0.9
+    },
+    "[\"neutral\", \"neutral\", 1, 6, true]": {
+      "normal": 2.34079402396,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 6, true]": {
+      "normal": 0.4,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 6, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.5900000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 7, true]": {
+      "normal": 0.597,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 7, true]": {
+      "normal": 0.597,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 1, true]": {
+      "normal": 0.3599999999999999,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 2, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 1.6632800000000003,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 3, 2, true]": {
+      "normal": 0.0,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 1, 3, true]": {
+      "normal": 0.0,
+      "hint": -0.8,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 4, true]": {
+      "normal": 0.28206,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 4, true]": {
+      "normal": 0.6000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.846,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 4, true]": {
+      "normal": 0.6000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 0, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 2, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.9810000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 3, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 4, 1, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.9,
+      "motivate": -0.6000000000000001
+    },
+    "[\"neutral\", \"neutral\", 2, 2, true]": {
+      "normal": 1.592,
+      "hint": 0.0,
+      "repeat": 3.3485665832000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.7000000000000001,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"sad\", 4, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 6, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 7, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 8, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 9, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 5, true]": {
+      "normal": 0.9950000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 5, true]": {
+      "normal": 0.5,
+      "hint": -1.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 7, true]": {
+      "normal": 0.30000000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 7, true]": {
+      "normal": 0.30000000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 1, 0, true]": {
+      "normal": 19.836941046095404,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 2, 0, true]": {
+      "normal": 5.912643069957005,
+      "hint": 3.625634719443003,
+      "repeat": 0.0,
+      "simplify": 4.99337567892226,
+      "motivate": 2.4180343426
+    },
+    "[\"neutral\", \"neutral\", 2, 1, true]": {
+      "normal": 1.791,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 0, true]": {
+      "normal": 7.816966167837666,
+      "hint": 3.574716955105391,
+      "repeat": 0.0,
+      "simplify": 1.7035269551053902,
+      "motivate": 5.467590449778496
+    },
+    "[\"neutral\", \"neutral\", 4, 0, true]": {
+      "normal": 6.8858244119572385,
+      "hint": 3.4062649465415675,
+      "repeat": 0.0,
+      "simplify": 1.5350749465415672,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 0, true]": {
+      "normal": 2.0791000000000004,
+      "hint": 1.0,
+      "repeat": -0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 2, 3, true]": {
+      "normal": 1.3930000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.020000000000000018,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 3, 5, true]": {
+      "normal": 0.5,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.0
+    },
+    "[\"happy\", \"happy\", 4, 6, true]": {
+      "normal": 0.4,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 2, 0, true]": {
+      "normal": 3.3629581,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.3026662290000002,
+      "motivate": 2.9701000000000004
+    },
+    "[\"neutral\", \"happy\", 6, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 7, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 8, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 9, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 1, 0, true]": {
+      "normal": 19.027213177874145,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 4.376670176115934,
+      "motivate": 1.35463591
+    },
+    "[\"happy\", \"surprise\", 2, 0, true]": {
+      "normal": 5.8519850599000005,
+      "hint": 1.5266786553910001,
+      "repeat": 0.0,
+      "simplify": 4.0679719814719,
+      "motivate": 1.1791
+    },
+    "[\"surprise\", \"happy\", 3, 0, true]": {
+      "normal": 8.64827525163591,
+      "hint": 2.6672567553910005,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 4, 0, true]": {
+      "normal": 5.8519850599000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 2.4078871
+    },
+    "[\"surprise\", \"happy\", 5, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 6, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.0981
+    },
+    "[\"surprise\", \"happy\", 7, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 8, 0, true]": {
+      "normal": 1.09,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.0
+    },
+    "[\"neutral\", \"surprise\", 9, 0, true]": {
+      "normal": 1.1791,
+      "hint": 1.1791,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 2.9701000000000004
+    },
+    "[\"surprise\", \"surprise\", 10, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.9981
+    },
+    "[\"neutral\", \"surprise\", 2, 0, true]": {
+      "normal": 7.725530557207991,
+      "hint": 1.6952977501487192,
+      "repeat": 0.0,
+      "simplify": 1.35463591,
+      "motivate": 4.0679719814719
+    },
+    "[\"surprise\", \"neutral\", 3, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"confused\", 0, 0, true]": {
+      "normal": -6.3106603684714715,
+      "hint": -1.8970000000000002,
+      "repeat": 0.0,
+      "simplify": -1.33,
+      "motivate": -1.8970000000000002
+    },
+    "[\"confused\", \"frustrated\", 0, 0, true]": {
+      "normal": -1.355,
+      "hint": -1.355,
+      "repeat": 0.0,
+      "simplify": -0.95,
+      "motivate": -0.95
+    },
+    "[\"frustrated\", \"happy\", 1, 0, true]": {
+      "normal": 1.676729990533,
+      "hint": 5.444029895863,
+      "repeat": 0.0,
+      "simplify": 2.9416609300000003,
+      "motivate": 2.5869999999999997
+    },
+    "[\"neutral\", \"surprise\", 3, 0, true]": {
+      "normal": 2.41582591,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.267309,
+      "motivate": 3.940399
+    },
+    "[\"surprise\", \"happy\", 4, 0, true]": {
+      "normal": 3.0583090000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 4.20064113061
+    },
+    "[\"happy\", \"happy\", 5, 0, true]": {
+      "normal": 2.24029,
+      "hint": 1.1791,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 2.9926261000000003
+    },
+    "[\"neutral\", \"surprise\", 1, 0, true]": {
+      "normal": 16.54862385499124,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 2, 0, true]": {
+      "normal": 3.250345061238197,
+      "hint": 4.296438870209464,
+      "repeat": 0.0,
+      "simplify": 3.3310991221450976,
+      "motivate": 4.131987913757747
+    },
+    "[\"neutral\", \"surprise\", 5, 0, true]": {
+      "normal": 3.13922071,
+      "hint": 1.9981,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.2825298639
+    },
+    "[\"surprise\", \"sad\", 0, 0, true]": {
+      "normal": -3.2799130000000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.33
+    },
+    "[\"sad\", \"surprise\", 1, 0, true]": {
+      "normal": 5.268571814416175,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 5.465005498656863,
+      "motivate": 4.215163242968941
+    },
+    "[\"neutral\", \"happy\", 3, 0, true]": {
+      "normal": 2.256897349,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 3.1550950685269004,
+      "motivate": 3.0743107614100005
+    },
+    "[\"happy\", \"happy\", 4, 0, true]": {
+      "normal": 3.154433707261,
+      "hint": 1.1878407100000001,
+      "repeat": 0.0,
+      "simplify": 3.0669623029,
+      "motivate": 1.09
+    },
+    "[\"surprise\", \"happy\", 2, 0, true]": {
+      "normal": 6.8858244119572385,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 5.606458527417533,
+      "motivate": 3.7954868237744672
+    },
+    "[\"happy\", \"neutral\", 3, 0, true]": {
+      "normal": 7.733156546418138,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 2.5083789298822903,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 4, 0, true]": {
+      "normal": 5.8519850599000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 0, true]": {
+      "normal": -4.559250919300001,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.8970000000000002
+    },
+    "[\"confused\", \"neutral\", 1, 0, true]": {
+      "normal": 5.132839153,
+      "hint": 1.76195552377,
+      "repeat": 0.0,
+      "simplify": 1.417,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"neutral\", 1, 0, true]": {
+      "normal": 1.5328300000000001,
+      "hint": 5.4414206977,
+      "repeat": 0.0,
+      "simplify": 1.6764927907000002,
+      "motivate": 2.5869999999999997
+    },
+    "[\"surprise\", \"surprise\", 2, 0, true]": {
+      "normal": 4.9088544319,
+      "hint": 2.4227968988710002,
+      "repeat": 0.0,
+      "simplify": 2.32987681,
+      "motivate": 1.179829
+    },
+    "[\"surprise\", \"surprise\", 3, 0, true]": {
+      "normal": 6.80116822870519,
+      "hint": 1.179829,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 5, 0, true]": {
+      "normal": 3.0583090000000004,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 1.2752478100000002,
+      "motivate": 1.2752478100000002
+    },
+    "[\"neutral\", \"neutral\", 6, 0, true]": {
+      "normal": 4.9088544319,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.09
+    },
+    "[\"neutral\", \"surprise\", 7, 0, true]": {
+      "normal": 2.978119,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.09
+    },
+    "[\"surprise\", \"surprise\", 8, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"surprise\", 1, 0, true]": {
+      "normal": 0.0,
+      "hint": 6.691914392467603,
+      "repeat": 0.0,
+      "simplify": 5.495952939306699,
+      "motivate": 1.9022722953220843
+    },
+    "[\"happy\", \"confused\", 0, 0, true]": {
+      "normal": -4.559250919300001,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": -1.8970000000000002,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 3, 0, true]": {
+      "normal": 4.995229478581001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.0,
+      "motivate": 1.09
+    },
+    "[\"surprise\", \"neutral\", 4, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.9900000000000002,
+      "motivate": 2.24029
+    },
+    "[\"neutral\", \"happy\", 5, 0, true]": {
+      "normal": 5.14385114671,
+      "hint": 1.2016261000000001,
+      "repeat": 0.0,
+      "simplify": 1.9900000000000002,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 6, 0, true]": {
+      "normal": 2.24029,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.9900000000000002,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 7, 0, true]": {
+      "normal": 2.0791000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 2.0871190000000004,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 8, 0, true]": {
+      "normal": 0.0,
+      "hint": 2.2636027639,
+      "repeat": 0.0,
+      "simplify": 1.0,
+      "motivate": 3.05903071
+    },
+    "[\"confused\", \"happy\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 10.377930301963094,
+      "simplify": 0.0,
+      "motivate": 3.690390442148679
+    },
+    "[\"happy\", \"confused\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.439,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"neutral\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 5.98493838108,
+      "simplify": 2.8186444542972007,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 5, 0, true]": {
+      "normal": 5.07388735889839,
+      "hint": 1.09,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.998829
+    },
+    "[\"neutral\", \"sad\", 0, 0, true]": {
+      "normal": -4.803325827370001,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": -1.33,
+      "motivate": -1.33
+    },
+    "[\"happy\", \"neutral\", 3, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.592,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 6, 3, true]": {
+      "normal": 0.7000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 7, 2, true]": {
+      "normal": 0.8,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 1, true]": {
+      "normal": -0.8,
+      "hint": 0.0,
+      "repeat": -0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 7, 0, true]": {
+      "normal": 2.08784071,
+      "hint": 1.09,
+      "repeat": 0.0,
+      "simplify": 1.1878407100000001,
+      "motivate": 2.087119
+    },
+    "[\"surprise\", \"frustrated\", 0, 0, true]": {
+      "normal": -3.6519217000000004,
+      "hint": -0.7000000000000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"confused\", 0, 0, true]": {
+      "normal": -0.95,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": -0.95,
+      "motivate": -0.5
+    },
+    "[\"surprise\", \"neutral\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 6, 0, true]": {
+      "normal": 0.0,
+      "hint": 1.09,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.9981
+    },
+    "[\"neutral\", \"happy\", 6, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 7, 0, true]": {
+      "normal": 1.0981,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.0
+    },
+    "[\"happy\", \"surprise\", 8, 0, true]": {
+      "normal": 2.087119,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.0
+    },
+    "[\"surprise\", \"neutral\", 9, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.0
+    },
+    "[\"neutral\", \"neutral\", 10, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.09
+    },
+    "[\"surprise\", \"surprise\", 4, 0, true]": {
+      "normal": 4.99592975307229,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.0981
+    },
+    "[\"neutral\", \"surprise\", 6, 0, true]": {
+      "normal": 3.06624781,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 1.1878407100000001,
+      "motivate": 1.09
+    },
+    "[\"neutral\", \"happy\", 4, 0, true]": {
+      "normal": 3.940399,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.1791
+    },
+    "[\"happy\", \"neutral\", 4, 0, true]": {
+      "normal": 4.900995010000001,
+      "hint": 1.4410895509000001,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"sad\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": -0.8,
+      "repeat": -0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 2, 0, true]": {
+      "normal": 7.725530557207991,
+      "hint": 2.83058418783709,
+      "repeat": 0.0,
+      "simplify": 3.772371264391,
+      "motivate": 1.5266786553910001
+    },
+    "[\"happy\", \"happy\", 3, 0, true]": {
+      "normal": 5.8519850599000005,
+      "hint": 1.5266786553910001,
+      "repeat": 0.0,
+      "simplify": 1.5266786553910001,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 7, 0, true]": {
+      "normal": 1.0,
+      "hint": 1.09,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 8, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.9900000000000002,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 9, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 2.9701000000000004,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 10, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 6, 0, true]": {
+      "normal": 1.9981,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.09
+    },
+    "[\"surprise\", \"happy\", 9, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 10, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 6, 0, true]": {
+      "normal": 3.0583090000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.0
+    },
+    "[\"surprise\", \"happy\", 8, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.1791,
+      "motivate": 1.1791
+    },
+    "[\"happy\", \"sad\", 0, 0, true]": {
+      "normal": -3.2799130000000005,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"happy\", 1, 1, true]": {
+      "normal": 1.4157948000000002,
+      "hint": 1.4157948000000002,
+      "repeat": 4.738005372000001,
+      "simplify": 0.0,
+      "motivate": 1.308
+    },
+    "[\"happy\", \"frustrated\", 0, 0, true]": {
+      "normal": -5.702885867803711,
+      "hint": -1.33,
+      "repeat": 0.0,
+      "simplify": -2.4073,
+      "motivate": -1.8970000000000002
+    },
+    "[\"frustrated\", \"surprise\", 1, 0, true]": {
+      "normal": 0.0,
+      "hint": 1.3,
+      "repeat": 0.0,
+      "simplify": 4.2042190350433,
+      "motivate": 3.9879304593700002
+    },
+    "[\"neutral\", \"frustrated\", 0, 0, true]": {
+      "normal": -4.803325827370001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -1.33,
+      "motivate": -0.7000000000000001
+    },
+    "[\"frustrated\", \"happy\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 3.56412,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 7, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 1.1791,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 3, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 4, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 5, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 6, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.194,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 7, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 8, 6, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.4,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"sad\", 0, 7, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.4000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"neutral\", 1, 6, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.7000000000000001,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"happy\", 1, 0, true]": {
+      "normal": 0.0,
+      "hint": 7.837714812016688,
+      "repeat": 0.0,
+      "simplify": 8.8315047720913,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 4, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 5, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 6, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 7, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"frustrated\", 0, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.2800000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 5, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.1791,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 3, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.9810000000000001,
+      "repeat": 0.98829,
+      "simplify": 0.9,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"sad\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.6260000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"neutral\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 4.151205066785881,
+      "repeat": 5.907687408732,
+      "simplify": 1.4419513200000003,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 2, 2, true]": {
+      "normal": 0.0,
+      "hint": 1.0138472,
+      "repeat": 3.1523192,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 2.7582793000000003,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 4, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.8,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 5, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"frustrated\", 0, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.2000000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"happy\", 1, 4, true]": {
+      "normal": 0.9,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 2.67309,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 2, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 3.1523192,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 3, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.9,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 7, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 2, 0, true]": {
+      "normal": 6.793465209301001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.4410895509000001,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 5, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 6, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 7, 0, true]": {
+      "normal": 2.9701000000000004,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 8, 0, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 9, 0, true]": {
+      "normal": 1.9900000000000002,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 10, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 1.0
+    },
+    "[\"frustrated\", \"frustrated\", 0, 0, true]": {
+      "normal": -0.95,
+      "hint": -0.95,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.95
+    },
+    "[\"frustrated\", \"neutral\", 1, 0, true]": {
+      "normal": 1.8734164161700002,
+      "hint": 4.79281680787,
+      "repeat": 0.0,
+      "simplify": 6.371293513,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"sad\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -3.0951,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"surprise\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 1.8320143864692,
+      "repeat": 9.270636668649589,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 3, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"sad\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.439,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.9,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 3, 0, true]": {
+      "normal": 2.978119,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.09
+    },
+    "[\"neutral\", \"surprise\", 8, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 9, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 10, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 2, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 3.920796008,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"confused\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"confused\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.33
+    },
+    "[\"confused\", \"confused\", 0, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": 0.0,
+      "repeat": -2.4570600000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 4, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 5, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.7000000000000001,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 6, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.8,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 7, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.9,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.3930000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 4, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 5, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 6, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.6000000000000001,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 7, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.7000000000000001,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 8, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.8,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"surprise\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 9.270636668649589,
+      "simplify": 2.034357300178463,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"confused\", 0, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.95
+    },
+    "[\"confused\", \"sad\", 0, 0, true]": {
+      "normal": -0.5,
+      "hint": -0.95,
+      "repeat": 0.0,
+      "simplify": -0.5,
+      "motivate": -0.5
+    },
+    "[\"neutral\", \"confused\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.168,
+      "simplify": 0.0,
+      "motivate": -0.8
+    },
+    "[\"confused\", \"happy\", 1, 2, true]": {
+      "normal": 0.0,
+      "hint": 1.199,
+      "repeat": 1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 2, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 3, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 4, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"confused\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"surprise\", 1, 3, true]": {
+      "normal": 1.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 1.09,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 2, true]": {
+      "normal": -0.9,
+      "hint": 0.0,
+      "repeat": -0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 2, 2, true]": {
+      "normal": 0.9432800000000001,
+      "hint": 0.0,
+      "repeat": 3.1523192,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 4, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.8,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 8, 0, true]": {
+      "normal": 0.0,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"sad\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": -0.6000000000000001,
+      "repeat": -2.4570600000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"frustrated\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 2, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 3.920796008,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"frustrated\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"surprise\", 1, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.1
+    },
+    "[\"frustrated\", \"neutral\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 11.474150998943463,
+      "simplify": 1.933694242604508,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"frustrated\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": -1.1400000000000001,
+      "repeat": -2.4570600000000002,
+      "simplify": -0.6000000000000001,
+      "motivate": -0.6000000000000001
+    },
+    "[\"happy\", \"sad\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.71,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"sad\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.8
+    },
+    "[\"sad\", \"neutral\", 1, 2, true]": {
+      "normal": 3.26711,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"happy\", 1, 0, true]": {
+      "normal": 3.8715547,
+      "hint": 3.1320358537000006,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.417
+    },
+    "[\"happy\", \"surprise\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 2.07907,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 4, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.78206,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 5, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 6, 6, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.796,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"frustrated\", 0, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": 0.0,
+      "repeat": -2.0634,
+      "simplify": -0.6000000000000001,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"confused\", 0, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": 0.0,
+      "repeat": -1.6260000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"sad\", 0, 0, true]": {
+      "normal": -0.5,
+      "hint": -0.95,
+      "repeat": 0.0,
+      "simplify": -0.5,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.2000000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"surprise\", 1, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.9
+    },
+    "[\"surprise\", \"neutral\", 2, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 3.920796008,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"sad\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 2, 1, true]": {
+      "normal": 1.791,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 9, 0, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 1.0
+    },
+    "[\"neutral\", \"surprise\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.3930000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 4, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 5, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.5,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 7, 7, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.30000000000000004,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"neutral\", 8, 8, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.2,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"happy\", 9, 9, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"confused\", 0, 0, true]": {
+      "normal": -0.95,
+      "hint": -0.5,
+      "repeat": 0.0,
+      "simplify": -0.5,
+      "motivate": -0.5
+    },
+    "[\"surprise\", \"frustrated\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.439,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"surprise\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"happy\", 3, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"happy\", 4, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.7000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"sad\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"surprise\", 1, 3, true]": {
+      "normal": 0.0,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"neutral\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.3930000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"confused\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"frustrated\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"neutral\", 1, 3, true]": {
+      "normal": 1.09,
+      "hint": 1.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.791,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"frustrated\", 0, 0, true]": {
+      "normal": -0.5,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.95
+    },
+    "[\"sad\", \"confused\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1400000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"frustrated\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -2.439,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"surprise\", 2, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"frustrated\", 0, 1, true]": {
+      "normal": -0.6000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"frustrated\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"sad\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.8
+    },
+    "[\"happy\", \"confused\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -3.439,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"surprise\", 1, 2, true]": {
+      "normal": 0.0,
+      "hint": 1.1,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"frustrated\", 0, 2, true]": {
+      "normal": -0.7000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"sad\", 0, 0, true]": {
+      "normal": 0.0,
+      "hint": -0.95,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"frustrated\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"frustrated\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.7000000000000001
+    },
+    "[\"neutral\", \"neutral\", 3, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.3930000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"surprise\", 4, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.6000000000000001,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"frustrated\", \"surprise\", 1, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.9
+    },
+    "[\"surprise\", \"sad\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -1.0
+    },
+    "[\"sad\", \"sad\", 0, 2, true]": {
+      "normal": -0.7000000000000001,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"surprise\", 1, 1, true]": {
+      "normal": 0.0,
+      "hint": 1.2000000000000002,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"sad\", 0, 5, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.2000000000000002,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"frustrated\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.9
+    },
+    "[\"neutral\", \"confused\", 0, 2, true]": {
+      "normal": -0.9,
+      "hint": 0.0,
+      "repeat": -0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"surprise\", \"confused\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"sad\", 0, 2, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": -0.7000000000000001
+    },
+    "[\"confused\", \"neutral\", 1, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 1.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"sad\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -1.1,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"sad\", \"confused\", 0, 3, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": -0.8,
+      "motivate": 0.0
+    },
+    "[\"confused\", \"sad\", 0, 4, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.9,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"happy\", \"frustrated\", 0, 1, true]": {
+      "normal": 0.0,
+      "hint": 0.0,
+      "repeat": -0.8,
+      "simplify": 0.0,
+      "motivate": 0.0
+    },
+    "[\"neutral\", \"neutral\", 4, 8, true]": {
+      "normal": 0.2,
+      "hint": 0.0,
+      "repeat": 0.0,
+      "simplify": 0.0,
+      "motivate": 0.0
+    }
+  },
+  "action_counts": {
+    "normal": 447,
+    "hint": 119,
+    "repeat": 249,
+    "simplify": 154,
+    "motivate": 139
+  },
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "epsilon": 0.2
+}

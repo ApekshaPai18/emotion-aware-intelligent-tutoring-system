@@ -1,0 +1,397 @@
+{
+  "reward_ablation": {
+    "full": {
+      "name": "Full Reward (+10/-5 + emotion + penalty)",
+      "avg_success_rate": 68.625,
+      "avg_reward": 52.2125,
+      "avg_convergence": 51.0,
+      "by_profile": {
+        "fast": {
+          "avg_reward": 84.4,
+          "success_rate": 91.0,
+          "convergence_episode": 52,
+          "states_explored": 175
+        },
+        "average": {
+          "avg_reward": 51.55,
+          "success_rate": 68.5,
+          "convergence_episode": 43,
+          "states_explored": 139
+        },
+        "slow": {
+          "avg_reward": 28.3,
+          "success_rate": 51.5,
+          "convergence_episode": 67,
+          "states_explored": 100
+        },
+        "inconsistent": {
+          "avg_reward": 44.6,
+          "success_rate": 63.5,
+          "convergence_episode": 42,
+          "states_explored": 113
+        }
+      }
+    },
+    "no_emotion": {
+      "name": "No Emotion Bonus (+10/-5 + penalty)",
+      "avg_success_rate": 69.125,
+      "avg_reward": 52.1125,
+      "avg_convergence": 47.5,
+      "by_profile": {
+        "fast": {
+          "avg_reward": 88.4,
+          "success_rate": 93.0,
+          "convergence_episode": 41,
+          "states_explored": 155
+        },
+        "average": {
+          "avg_reward": 49.9,
+          "success_rate": 67.5,
+          "convergence_episode": 50,
+          "states_explored": 153
+        },
+        "slow": {
+          "avg_reward": 26.35,
+          "success_rate": 52.5,
+          "convergence_episode": 46,
+          "states_explored": 119
+        },
+        "inconsistent": {
+          "avg_reward": 43.8,
+          "success_rate": 63.5,
+          "convergence_episode": 53,
+          "states_explored": 108
+        }
+      }
+    },
+    "no_penalty": {
+      "name": "No Repetition Penalty (+10/-5 + emotion)",
+      "avg_success_rate": 72.625,
+      "avg_reward": 59.587500000000006,
+      "avg_convergence": 46.25,
+      "by_profile": {
+        "fast": {
+          "avg_reward": 82.85,
+          "success_rate": 88.5,
+          "convergence_episode": 56,
+          "states_explored": 194
+        },
+        "average": {
+          "avg_reward": 66.7,
+          "success_rate": 77.5,
+          "convergence_episode": 41,
+          "states_explored": 178
+        },
+        "slow": {
+          "avg_reward": 41.3,
+          "success_rate": 60.0,
+          "convergence_episode": 43,
+          "states_explored": 110
+        },
+        "inconsistent": {
+          "avg_reward": 47.5,
+          "success_rate": 64.5,
+          "convergence_episode": 45,
+          "states_explored": 139
+        }
+      }
+    },
+    "binary": {
+      "name": "Binary Reward (\u00b11 only)",
+      "avg_success_rate": 69.25,
+      "avg_reward": 3.8499999999999996,
+      "avg_convergence": 41.0,
+      "by_profile": {
+        "fast": {
+          "avg_reward": 7.8,
+          "success_rate": 89.0,
+          "convergence_episode": 41,
+          "states_explored": 151
+        },
+        "average": {
+          "avg_reward": 4.6,
+          "success_rate": 73.0,
+          "convergence_episode": 41,
+          "states_explored": 137
+        },
+        "slow": {
+          "avg_reward": -0.6,
+          "success_rate": 47.0,
+          "convergence_episode": 41,
+          "states_explored": 119
+        },
+        "inconsistent": {
+          "avg_reward": 3.6,
+          "success_rate": 68.0,
+          "convergence_episode": 41,
+          "states_explored": 129
+        }
+      }
+    }
+  },
+  "state_ablation": {
+    "full": {
+      "name": "Full State (E\u209c\u208b\u2081, E\u209c, C\u209c, Rep\u209c, F\u209c)",
+      "avg_success_rate": 71.5,
+      "avg_states_explored": 140.5,
+      "by_profile": {
+        "fast": {
+          "success_rate": 89.5,
+          "states_explored": 193
+        },
+        "average": {
+          "success_rate": 73.0,
+          "states_explored": 144
+        },
+        "slow": {
+          "success_rate": 54.0,
+          "states_explored": 103
+        },
+        "inconsistent": {
+          "success_rate": 69.5,
+          "states_explored": 122
+        }
+      }
+    },
+    "no_prev_emotion": {
+      "name": "No Previous Emotion (E\u209c, C\u209c, Rep\u209c, F\u209c)",
+      "avg_success_rate": 70.25,
+      "avg_states_explored": 54.75,
+      "by_profile": {
+        "fast": {
+          "success_rate": 92.5,
+          "states_explored": 81
+        },
+        "average": {
+          "success_rate": 70.0,
+          "states_explored": 54
+        },
+        "slow": {
+          "success_rate": 59.0,
+          "states_explored": 38
+        },
+        "inconsistent": {
+          "success_rate": 59.5,
+          "states_explored": 46
+        }
+      }
+    },
+    "no_emotion": {
+      "name": "No Emotion (C\u209c, Rep\u209c, F\u209c)",
+      "avg_success_rate": 69.125,
+      "avg_states_explored": 19.5,
+      "by_profile": {
+        "fast": {
+          "success_rate": 89.5,
+          "states_explored": 27
+        },
+        "average": {
+          "success_rate": 73.5,
+          "states_explored": 17
+        },
+        "slow": {
+          "success_rate": 53.5,
+          "states_explored": 13
+        },
+        "inconsistent": {
+          "success_rate": 60.0,
+          "states_explored": 21
+        }
+      }
+    },
+    "no_face": {
+      "name": "No Face Presence (E\u209c\u208b\u2081, E\u209c, C\u209c, Rep\u209c)",
+      "avg_success_rate": 70.0,
+      "avg_states_explored": 137.0,
+      "by_profile": {
+        "fast": {
+          "success_rate": 87.0,
+          "states_explored": 149
+        },
+        "average": {
+          "success_rate": 71.0,
+          "states_explored": 136
+        },
+        "slow": {
+          "success_rate": 59.0,
+          "states_explored": 119
+        },
+        "inconsistent": {
+          "success_rate": 63.0,
+          "states_explored": 144
+        }
+      }
+    }
+  },
+  "action_ablation": {
+    "full": {
+      "name": "Full Actions (5 actions)",
+      "avg_success_rate": 69.0,
+      "by_profile": {
+        "fast": {
+          "success_rate": 91.5,
+          "action_usage": {
+            "normal": 144,
+            "hint": 286,
+            "repeat": 99,
+            "simplify": 148,
+            "motivate": 123
+          }
+        },
+        "average": {
+          "success_rate": 71.0,
+          "action_usage": {
+            "normal": 100,
+            "hint": 131,
+            "repeat": 72,
+            "simplify": 352,
+            "motivate": 145
+          }
+        },
+        "slow": {
+          "success_rate": 55.0,
+          "action_usage": {
+            "normal": 144,
+            "hint": 257,
+            "repeat": 130,
+            "simplify": 171,
+            "motivate": 98
+          }
+        },
+        "inconsistent": {
+          "success_rate": 58.5,
+          "action_usage": {
+            "normal": 136,
+            "hint": 182,
+            "repeat": 103,
+            "simplify": 139,
+            "motivate": 240
+          }
+        }
+      }
+    },
+    "no_simplify": {
+      "name": "No Simplify (4 actions)",
+      "avg_success_rate": 68.0,
+      "by_profile": {
+        "fast": {
+          "success_rate": 85.0,
+          "action_usage": {
+            "normal": 172,
+            "hint": 268,
+            "repeat": 108,
+            "motivate": 252
+          }
+        },
+        "average": {
+          "success_rate": 69.5,
+          "action_usage": {
+            "normal": 346,
+            "hint": 170,
+            "repeat": 152,
+            "motivate": 132
+          }
+        },
+        "slow": {
+          "success_rate": 56.5,
+          "action_usage": {
+            "normal": 172,
+            "hint": 256,
+            "repeat": 129,
+            "motivate": 243
+          }
+        },
+        "inconsistent": {
+          "success_rate": 61.0,
+          "action_usage": {
+            "normal": 141,
+            "hint": 157,
+            "repeat": 164,
+            "motivate": 338
+          }
+        }
+      }
+    },
+    "no_motivate": {
+      "name": "No Motivate (4 actions)",
+      "avg_success_rate": 71.625,
+      "by_profile": {
+        "fast": {
+          "success_rate": 91.0,
+          "action_usage": {
+            "normal": 159,
+            "hint": 281,
+            "repeat": 167,
+            "simplify": 193
+          }
+        },
+        "average": {
+          "success_rate": 76.0,
+          "action_usage": {
+            "normal": 148,
+            "hint": 205,
+            "repeat": 166,
+            "simplify": 281
+          }
+        },
+        "slow": {
+          "success_rate": 55.5,
+          "action_usage": {
+            "normal": 139,
+            "hint": 174,
+            "repeat": 139,
+            "simplify": 348
+          }
+        },
+        "inconsistent": {
+          "success_rate": 64.0,
+          "action_usage": {
+            "normal": 145,
+            "hint": 281,
+            "repeat": 111,
+            "simplify": 263
+          }
+        }
+      }
+    },
+    "minimal": {
+      "name": "Minimal Actions (3 actions)",
+      "avg_success_rate": 70.75,
+      "by_profile": {
+        "fast": {
+          "success_rate": 89.5,
+          "action_usage": {
+            "normal": 266,
+            "hint": 348,
+            "repeat": 186
+          }
+        },
+        "average": {
+          "success_rate": 72.5,
+          "action_usage": {
+            "normal": 213,
+            "hint": 387,
+            "repeat": 200
+          }
+        },
+        "slow": {
+          "success_rate": 51.5,
+          "action_usage": {
+            "normal": 269,
+            "hint": 393,
+            "repeat": 138
+          }
+        },
+        "inconsistent": {
+          "success_rate": 69.5,
+          "action_usage": {
+            "normal": 248,
+            "hint": 330,
+            "repeat": 222
+          }
+        }
+      }
+    }
+  },
+  "timestamp": "2026-06-01T20:16:27.289939"
+}
