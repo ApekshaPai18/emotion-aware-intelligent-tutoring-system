@@ -29,6 +29,9 @@ import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import ScienceIcon from '@mui/icons-material/Science';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
+// ============ API Configuration ============
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
+
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, ChartTooltip, Legend);
 
 interface EmotionStats {
@@ -189,7 +192,7 @@ const Results: React.FC = () => {
     }
     
     try {
-      const sessionRes = await axios.post('${process.env.REACT_APP_API_URL}/api/v1/sessions/', {
+      const sessionRes = await axios.post(`${API_BASE_URL}/sessions/`, {
         user_id: userId
       });
       
@@ -436,23 +439,23 @@ const Results: React.FC = () => {
                   <Box sx={{ mt: 1 }}>
                     <Typography variant="body2">
                       <strong>Baseline Score:</strong>{' '}
-                      <Chip label={'${baselineScoreValue}%'} color="primary" size="small" />
+                      <Chip label={`${baselineScoreValue}%`} color="primary" size="small" />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Adaptive Score:</strong>{' '}
-                      <Chip label={'${adaptiveScoreValue}%'} color="success" size="small" />
+                      <Chip label={`${adaptiveScoreValue}%`} color="success" size="small" />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Improvement:</strong>{' '}
                       <Chip 
-                        label={'${improvement >= 0 ? '+${improvement}' : improvement}%'} 
+                        label={`${improvement >= 0 ? `+${improvement}` : improvement}%`} 
                         color={improvement >= 0 ? "success" : "warning"} 
                         size="small" 
                       />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Final Weighted Score:</strong>{' '}
-                      <Chip label={'${finalScoreValue}%'} color="warning" size="small" />
+                      <Chip label={`${finalScoreValue}%`} color="warning" size="small" />
                     </Typography>
                     <Typography variant="body2" color="success.main" sx={{ mt: 2 }}>
                       ✅ Emotion-aware adaptation helped improve performance!
