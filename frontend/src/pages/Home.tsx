@@ -27,7 +27,7 @@ const Home: React.FC = () => {
     
     try {
       // Create new user
-      const userRes = await axios.post('http://localhost:8000/api/v1/users/', {
+      const userRes = await axios.post('${process.env.REACT_APP_API_URL}/api/v1/users/', {
         username: newUsername, 
         email: newEmail
       });
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       console.log('User created:', userRes.data);
       
       // Create session
-      const sessionRes = await axios.post('http://localhost:8000/api/v1/sessions/', {
+      const sessionRes = await axios.post('${process.env.REACT_APP_API_URL}/api/v1/sessions/', {
         user_id: userRes.data.id
       });
       
@@ -75,10 +75,10 @@ const Home: React.FC = () => {
     
     try {
       // Get existing user by username
-      const userRes = await axios.get(`http://localhost:8000/api/v1/users/by-username/${existingUsername}`);
+      const userRes = await axios.get(`${process.env.REACT_APP_API_URL}/api/v1/users/by-username/${existingUsername}`);
       
       // Create a new session for this user
-      const sessionRes = await axios.post('http://localhost:8000/api/v1/sessions/', {
+      const sessionRes = await axios.post('${process.env.REACT_APP_API_URL}/api/v1/sessions/', {
         user_id: userRes.data.id
       });
       
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
     setError('');
     
     try {
-      const userRes = await axios.get(`http://localhost:8000/api/v1/users/by-username/${adminUsername}`);
+      const userRes = await axios.get(`${process.env.REACT_APP_API_URL}/api/v1/users/by-username/${adminUsername}`);
       
       if (userRes.data.role !== 'admin') {
         setError('Not an admin account');
