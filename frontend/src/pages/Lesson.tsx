@@ -425,8 +425,8 @@ const Learn: React.FC = () => {
   const getRLDecision = async (): Promise<string> => {
     try {
       const endpoint = useDQN 
-        ? 'http://localhost:8000/api/v1/dqn-decision/'
-        : 'http://localhost:8000/api/v1/rl-decision/';
+        ? '${process.env.REACT_APP_API_URL}/api/v1/dqn-decision/'
+        : '${process.env.REACT_APP_API_URL}/api/v1/rl-decision/';
       
       const res = await axios.post(endpoint, {
         prev_emotion: prevEmotion,
@@ -448,8 +448,8 @@ const Learn: React.FC = () => {
   const updateRL = async (correct: boolean, action: string) => {
     try {
       const endpoint = useDQN
-        ? 'http://localhost:8000/api/v1/dqn-update/'
-        : 'http://localhost:8000/api/v1/update-rl/';
+        ? '${process.env.REACT_APP_API_URL}/api/v1/dqn-update/'
+        : '${process.env.REACT_APP_API_URL}/api/v1/update-rl/';
       
       await axios.post(endpoint, {
         prev_emotion: prevEmotion,
@@ -469,7 +469,7 @@ const Learn: React.FC = () => {
   const postInteraction = async (lessonIdx: number, questionId: string, correct: boolean, action: string, newStreak: number, newRepeat: number) => {
     const currentEmotionLower = emotion.toLowerCase();
     try {
-      await axios.post('http://localhost:8000/api/v1/interactions/', {
+      await axios.post('${process.env.REACT_APP_API_URL}/api/v1/interactions/', {
         user_id: userId,
         session_id: currentSessionId,
         lesson_id: (lessonIdx + 1).toString(),
