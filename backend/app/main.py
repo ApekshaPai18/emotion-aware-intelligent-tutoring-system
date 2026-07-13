@@ -28,21 +28,21 @@ app = FastAPI(
     debug=settings.debug
 )
 
-# Configure CORS
+# ✅ CORS MIDDLEWARE - MUST BE ADDED BEFORE ROUTERS
 app.add_middleware(
     CORSMiddleware,
-#     allow_origins=[
-#     "http://localhost:3000",
-#     "https://emotion-aware-intelligent-tutoring.vercel.app",  # ✅ Your main domain
-#     "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",  # ✅ Your backup domain
-# ],  # React dev server
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://emotion-aware-intelligent-tutoring.vercel.app",
+        "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",
+        "https://emotion-aware-intelligent-tutoring.onrender.com",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Include routers
+# ✅ ROUTERS - ADDED AFTER CORS MIDDLEWARE
 app.include_router(router, prefix="/api/v1")
 
 @app.get("/")
