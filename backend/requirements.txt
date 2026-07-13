@@ -12,3 +12,4 @@ pydantic-settings==2.1.0
 alembic==1.12.1
 httpx==0.25.1
 pillow==10.2.0
+psycopg2-binary==2.9.9  # ⬅️ ADD THIS for PostgreSQL
