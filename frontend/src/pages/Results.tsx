@@ -189,7 +189,7 @@ const Results: React.FC = () => {
     }
     
     try {
-      const sessionRes = await axios.post('http://localhost:8000/api/v1/sessions/', {
+      const sessionRes = await axios.post('${process.env.REACT_APP_API_URL}/api/v1/sessions/', {
         user_id: userId
       });
       
