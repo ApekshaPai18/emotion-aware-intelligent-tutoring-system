@@ -29,16 +29,10 @@ app = FastAPI(
 # https://fastapi.tiangolo.com/tutorial/cors/
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "https://emotion-aware-intelligent-tutoring.vercel.app",
-        "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",
-        "https://emotion-aware-intelligent-tutoring.onrender.com",
-        "*",  # ✅ TEMPORARY: Allows all origins for testing
-    ],
+    allow_origin_regex=r"https://emotion-aware-intelligent-tutoring.*\.vercel\.app",
     allow_credentials=True,
-    allow_methods=["*"],  # ✅ Allows all HTTP methods (GET, POST, PUT, DELETE, OPTIONS)
-    allow_headers=["*"],  # ✅ Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ✅ Initialize database AFTER app is created
