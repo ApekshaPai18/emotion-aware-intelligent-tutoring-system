@@ -38,7 +38,8 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import GroupIcon from '@mui/icons-material/Group';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
-const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
+// ✅ FIXED: Use backticks (`) not single quotes (')
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
 
 interface User {
   id: number;
@@ -690,12 +691,11 @@ const AdminDashboard: React.FC = () => {
               View Leaderboard
             </Button>
             <Button 
-  variant="outlined" 
-  onClick={() => navigate('/database')}
-  
->
-  View Database
-</Button>
+              variant="outlined" 
+              onClick={() => navigate('/database')}
+            >
+              View Database
+            </Button>
           </Box>
         </>
       )}
