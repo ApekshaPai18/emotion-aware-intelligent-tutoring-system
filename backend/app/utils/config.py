@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     project_name: str = "Emotion-Aware Intelligent Tutoring System"
     version: str = "1.0.0"
     debug: bool = True
-    secret_key: str
+    secret_key: "RSpGSEbZdFkHOzIz6nzf-BUmAj_j3YZ65Qxbe_KNFL4"
     database_url: str
     
     # Emotion Detection
