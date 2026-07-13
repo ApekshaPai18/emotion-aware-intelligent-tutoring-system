@@ -28,7 +28,7 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import SchoolIcon from '@mui/icons-material/School';
 import InfoIcon from '@mui/icons-material/Info';
 
-// ✅ FIXED: Use backticks (`) not single quotes (')
+// ✅ FIXED: Using backticks (`)
 const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
 
 interface LeaderboardEntry {
