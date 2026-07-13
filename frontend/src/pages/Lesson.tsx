@@ -752,10 +752,10 @@ const Learn: React.FC = () => {
             <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 0.5 }}>
               <Typography variant="caption" color="text.secondary">
                 {quizPhase === 'baseline' && !showAdaptiveStart
-                  ? `📋 Baseline — Question ${currentQuestionNum} / 5`
+                  ? '📋 Baseline — Question ${currentQuestionNum} / 5'
                   : showAdaptiveStart
                   ? '📊 Baseline complete — ready for adaptive phase'
-                  : `🎯 Adaptive — Question ${currentQuestionNum} / 5`}
+                  : '🎯 Adaptive — Question ${currentQuestionNum} / 5'}
               </Typography>
               <Typography variant="caption" color="text.secondary">
                 {Math.round(progress)}%
@@ -840,7 +840,8 @@ const Learn: React.FC = () => {
               </Box>
 
               <Typography variant="body2" color="text.secondary" gutterBottom>
-                {quizPhase === 'baseline' ? `📋 Lesson ${currentLessonIndex + 1} Quiz` : `🎯 Adaptive Question (${difficultySettings[difficultyLevel].description})`}
+                {quizPhase === 'baseline' ? '📋 Lesson ${currentLessonIndex + 1} Quiz' : '🎯 Adaptive Question (${difficultySettings[difficultyLevel].description})'
+                }
               </Typography>
 
               <Paper variant="outlined" sx={{ p: 2.5, mt: 2, mb: 3, bgcolor: '#f0f4ff', borderRadius: 2 }}>
