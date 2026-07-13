@@ -28,7 +28,7 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import SchoolIcon from '@mui/icons-material/School';
 import InfoIcon from '@mui/icons-material/Info';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
 
 interface LeaderboardEntry {
   rank: number;
