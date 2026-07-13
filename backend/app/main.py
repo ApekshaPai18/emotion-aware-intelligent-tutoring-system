@@ -18,10 +18,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Initialize database
-init_db()
-
-# Create FastAPI app
+# Create FastAPI app FIRST
 app = FastAPI(
     title=settings.project_name,
     version=settings.version,
@@ -29,6 +26,7 @@ app = FastAPI(
 )
 
 # ✅ CORS MIDDLEWARE - MUST BE ADDED BEFORE ROUTERS
+# https://fastapi.tiangolo.com/tutorial/cors/
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -36,14 +34,17 @@ app.add_middleware(
         "https://emotion-aware-intelligent-tutoring.vercel.app",
         "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",
         "https://emotion-aware-intelligent-tutoring.onrender.com",
-        "*",  # ⚠️ TEMPORARY - allows all origins for testing
+        "*",  # ✅ TEMPORARY: Allows all origins for testing
     ],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["*"],  # ✅ Allows all HTTP methods (GET, POST, PUT, DELETE, OPTIONS)
+    allow_headers=["*"],  # ✅ Allows all headers
 )
 
-# ✅ ROUTERS - ADDED AFTER CORS MIDDLEWARE
+# ✅ Initialize database AFTER app is created
+init_db()
+
+# ✅ Add routers AFTER CORS middleware
 app.include_router(router, prefix="/api/v1")
 
 @app.get("/")
