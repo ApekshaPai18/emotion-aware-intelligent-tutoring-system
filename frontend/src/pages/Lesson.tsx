@@ -332,6 +332,7 @@ const Learn: React.FC = () => {
         let maxScore = 0;
         
         for (const [exp, val] of Object.entries(expressions)) {
+          const score = val as number;
           if (val > maxScore) {
             maxScore = val;
             if (exp === 'happy') dominantEmotion = 'happy';
