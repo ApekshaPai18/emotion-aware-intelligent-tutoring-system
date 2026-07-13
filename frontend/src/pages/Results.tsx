@@ -29,7 +29,7 @@ import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import ScienceIcon from '@mui/icons-material/Science';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
-// ============ API Configuration ============
+// ✅ FIXED: Using backticks (`)
 const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, ChartTooltip, Legend);
