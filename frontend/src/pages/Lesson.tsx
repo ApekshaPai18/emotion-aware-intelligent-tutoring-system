@@ -195,8 +195,7 @@ const Learn: React.FC = () => {
     };
   }, []);
 
-  // getCurrentLesson is commented out as it's not used
-  // const getCurrentLesson = () => LESSONS[currentLessonIndex];
+
   
   const getCurrentQuestion = (): Question | null => {
     if (quizPhase === 'baseline') {
