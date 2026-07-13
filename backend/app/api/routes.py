@@ -244,7 +244,7 @@ async def record_interaction(interaction: InteractionCreate, db: Session = Depen
             detected_emotion=interaction.detected_emotion.lower(),
             emotion_confidence=interaction.emotion_confidence,
             rl_action=interaction.rl_action,
-            algorithm=interaction.algorithm  # ✅ NEW: Track which algorithm was used
+            algorithm=interaction.algorithm
         )
         db.add(db_interaction)
 
@@ -348,8 +348,7 @@ async def get_user_dashboard(user_id: int, db: Session = Depends(get_db)):
 async def get_leaderboard(db: Session = Depends(get_db)):
     """
     Returns the leaderboard with scores recalculated LIVE from interactions.
-    This guarantees emotion transition points are always reflected accurately,
-    regardless of whether /leaderboard/update was explicitly called.
+    This guarantees emotion transition points are always reflected accurately.
     """
     try:
         users = db.query(User).filter(User.role != 'admin').all()
@@ -357,11 +356,9 @@ async def get_leaderboard(db: Session = Depends(get_db)):
 
         for user in users:
             sessions = db.query(LearningSession).filter(LearningSession.user_id == user.id).all()
-            if not sessions:
-                continue
-
             interactions = db.query(UserInteraction).filter(UserInteraction.user_id == user.id).all()
 
+            # Calculate metrics
             total_questions = sum(s.total_questions for s in sessions)
             correct_answers = sum(s.correct_answers for s in sessions)
             total_attempts = sum(s.total_attempts for s in sessions)
@@ -370,6 +367,28 @@ async def get_leaderboard(db: Session = Depends(get_db)):
             best_streak = calculate_best_streak(interactions)
             emotion_transitions = calculate_emotion_transitions(interactions)
             total_score = calculate_total_score(correct_answers, total_attempts, best_streak, emotion_transitions)
+
+            # ✅ CRITICAL FIX: Update the leaderboard entry in the database
+            entry = db.query(LeaderboardEntry).filter(LeaderboardEntry.user_id == user.id).first()
+            if entry:
+                entry.total_score = total_score
+                entry.total_questions = total_questions
+                entry.correct_answers = correct_answers
+                entry.best_streak = best_streak
+                entry.total_sessions = total_sessions
+                entry.last_updated = datetime.utcnow()
+            else:
+                entry = LeaderboardEntry(
+                    user_id=user.id,
+                    total_score=total_score,
+                    total_questions=total_questions,
+                    correct_answers=correct_answers,
+                    best_streak=best_streak,
+                    total_sessions=total_sessions
+                )
+                db.add(entry)
+
+            db.commit()
 
             leaderboard.append({
                 "rank": 0,
@@ -386,10 +405,10 @@ async def get_leaderboard(db: Session = Depends(get_db)):
 
         # Sort by score descending, assign ranks
         leaderboard.sort(key=lambda x: x["total_score"], reverse=True)
-        for i, entry in enumerate(leaderboard[:20]):
+        for i, entry in enumerate(leaderboard):
             entry["rank"] = i + 1
 
-        return leaderboard[:20]
+        return leaderboard
     except Exception as e:
         logger.error(f"Error getting leaderboard: {e}")
         raise HTTPException(status_code=500, detail="Error getting leaderboard")
