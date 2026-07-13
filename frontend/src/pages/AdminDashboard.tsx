@@ -38,7 +38,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import GroupIcon from '@mui/icons-material/Group';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
 
 interface User {
   id: number;
