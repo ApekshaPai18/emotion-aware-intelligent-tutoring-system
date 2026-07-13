@@ -31,10 +31,11 @@ app = FastAPI(
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[ "http://localhost:3000",
-        "https://emotion-aware-intelligent-tutoring.vercel.app",  
-        "https://emotion-aware-intelligent-tutoring.vercel.app",  
-        "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",],  # React dev server
+    allow_origins=[
+    "http://localhost:3000",
+    "https://emotion-aware-intelligent-tutoring.vercel.app",  # ✅ Your main domain
+    "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",  # ✅ Your backup domain
+],  # React dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
