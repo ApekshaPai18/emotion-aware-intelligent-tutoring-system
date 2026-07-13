@@ -23,6 +23,9 @@ import VideocamOffIcon from '@mui/icons-material/VideocamOff';
 import CloseIcon from '@mui/icons-material/Close';
 import * as faceapi from 'face-api.js';
 
+// ============ API Configuration ============
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
+
 // ============ LESSON DATA ============
 const LESSONS = [
   {
@@ -192,7 +195,9 @@ const Learn: React.FC = () => {
     };
   }, []);
 
+  // getCurrentLesson is commented out as it's not used
   // const getCurrentLesson = () => LESSONS[currentLessonIndex];
+  
   const getCurrentQuestion = (): Question | null => {
     if (quizPhase === 'baseline') {
       return currentLessonIndex < LESSONS.length ? LESSONS[currentLessonIndex].question : null;
@@ -425,8 +430,8 @@ const Learn: React.FC = () => {
   const getRLDecision = async (): Promise<string> => {
     try {
       const endpoint = useDQN 
-        ? '${process.env.REACT_APP_API_URL}/api/v1/dqn-decision/'
-        : '${process.env.REACT_APP_API_URL}/api/v1/rl-decision/';
+        ? `${API_BASE_URL}/dqn-decision/`
+        : `${API_BASE_URL}/rl-decision/`;
       
       const res = await axios.post(endpoint, {
         prev_emotion: prevEmotion,
@@ -448,8 +453,8 @@ const Learn: React.FC = () => {
   const updateRL = async (correct: boolean, action: string) => {
     try {
       const endpoint = useDQN
-        ? '${process.env.REACT_APP_API_URL}/api/v1/dqn-update/'
-        : '${process.env.REACT_APP_API_URL}/api/v1/update-rl/';
+        ? `${API_BASE_URL}/dqn-update/`
+        : `${API_BASE_URL}/update-rl/`;
       
       await axios.post(endpoint, {
         prev_emotion: prevEmotion,
@@ -469,7 +474,7 @@ const Learn: React.FC = () => {
   const postInteraction = async (lessonIdx: number, questionId: string, correct: boolean, action: string, newStreak: number, newRepeat: number) => {
     const currentEmotionLower = emotion.toLowerCase();
     try {
-      await axios.post('${process.env.REACT_APP_API_URL}/api/v1/interactions/', {
+      await axios.post(`${API_BASE_URL}/interactions/`, {
         user_id: userId,
         session_id: currentSessionId,
         lesson_id: (lessonIdx + 1).toString(),
@@ -480,7 +485,7 @@ const Learn: React.FC = () => {
         rl_action: action,
         streak: newStreak,
         repetition_count: newRepeat,
-        algorithm: useDQN ? "dqn" : "q_learning"  // ✅ Track which algorithm was used
+        algorithm: useDQN ? "dqn" : "q_learning"
       });
       console.log(`📝 Interaction recorded: ${correct ? '✅' : '❌'} | Algorithm: ${useDQN ? 'DQN' : 'Q-Learning'} | Confidence: ${(emotionConfidence * 100).toFixed(1)}%`);
     } catch (err) {
@@ -752,10 +757,10 @@ const Learn: React.FC = () => {
             <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 0.5 }}>
               <Typography variant="caption" color="text.secondary">
                 {quizPhase === 'baseline' && !showAdaptiveStart
-                  ? '📋 Baseline — Question ${currentQuestionNum} / 5'
+                  ? `📋 Baseline — Question ${currentQuestionNum} / 5`
                   : showAdaptiveStart
                   ? '📊 Baseline complete — ready for adaptive phase'
-                  : '🎯 Adaptive — Question ${currentQuestionNum} / 5'}
+                  : `🎯 Adaptive — Question ${currentQuestionNum} / 5`}
               </Typography>
               <Typography variant="caption" color="text.secondary">
                 {Math.round(progress)}%
@@ -840,8 +845,9 @@ const Learn: React.FC = () => {
               </Box>
 
               <Typography variant="body2" color="text.secondary" gutterBottom>
-                {quizPhase === 'baseline' ? '📋 Lesson ${currentLessonIndex + 1} Quiz' : '🎯 Adaptive Question (${difficultySettings[difficultyLevel].description})'
-                }
+                {quizPhase === 'baseline' 
+                  ? `📋 Lesson ${currentLessonIndex + 1} Quiz` 
+                  : `🎯 Adaptive Question (${difficultySettings[difficultyLevel].description})`}
               </Typography>
 
               <Paper variant="outlined" sx={{ p: 2.5, mt: 2, mb: 3, bgcolor: '#f0f4ff', borderRadius: 2 }}>
