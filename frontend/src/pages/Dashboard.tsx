@@ -29,7 +29,7 @@ import ScienceIcon from '@mui/icons-material/Science';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import VerifiedIcon from '@mui/icons-material/Verified';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
 
 interface DashboardData {
   user: {
