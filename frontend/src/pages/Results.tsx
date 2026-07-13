@@ -436,23 +436,23 @@ const Results: React.FC = () => {
                   <Box sx={{ mt: 1 }}>
                     <Typography variant="body2">
                       <strong>Baseline Score:</strong>{' '}
-                      <Chip label={`${baselineScoreValue}%`} color="primary" size="small" />
+                      <Chip label={'${baselineScoreValue}%'} color="primary" size="small" />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Adaptive Score:</strong>{' '}
-                      <Chip label={`${adaptiveScoreValue}%`} color="success" size="small" />
+                      <Chip label={'${adaptiveScoreValue}%'} color="success" size="small" />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Improvement:</strong>{' '}
                       <Chip 
-                        label={`${improvement >= 0 ? `+${improvement}` : improvement}%`} 
+                        label={'${improvement >= 0 ? '+${improvement}' : improvement}%'} 
                         color={improvement >= 0 ? "success" : "warning"} 
                         size="small" 
                       />
                     </Typography>
                     <Typography variant="body2" sx={{ mt: 1 }}>
                       <strong>Final Weighted Score:</strong>{' '}
-                      <Chip label={`${finalScoreValue}%`} color="warning" size="small" />
+                      <Chip label={'${finalScoreValue}%'} color="warning" size="small" />
                     </Typography>
                     <Typography variant="body2" color="success.main" sx={{ mt: 2 }}>
                       ✅ Emotion-aware adaptation helped improve performance!
