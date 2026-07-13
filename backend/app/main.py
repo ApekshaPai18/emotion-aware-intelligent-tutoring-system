@@ -25,14 +25,29 @@ app = FastAPI(
     debug=settings.debug
 )
 
-# ✅ CORS MIDDLEWARE - MUST BE ADDED BEFORE ROUTERS
-# https://fastapi.tiangolo.com/tutorial/cors/
+# ✅ SECURE CORS CONFIGURATION - PRODUCTION
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"https://emotion-aware-intelligent-tutoring.*\.vercel\.app",
+    allow_origins=[
+        "http://localhost:3000",  # Local development
+        "https://emotion-aware-intelligent-tutoring.vercel.app",  # Main frontend
+        "https://emotion-aware-intelligent-tutoring-g01t4g686.vercel.app",  # Backup frontend
+        "https://emotion-aware-intelligent-tutoring.onrender.com",  # Backend itself
+    ],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=[
+        "Authorization",
+        "Content-Type",
+        "Accept",
+        "Origin",
+        "X-Requested-With",
+    ],
+    expose_headers=[
+        "Content-Length",
+        "X-Rate-Limit-Remaining",
+    ],
+    max_age=86400,  # 24 hours
 )
 
 # ✅ Initialize database AFTER app is created
