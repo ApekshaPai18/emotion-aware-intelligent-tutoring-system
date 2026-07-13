@@ -161,8 +161,8 @@ const Learn: React.FC = () => {
   const [showSimplified, setShowSimplified] = useState<boolean>(false);
   const [difficultyLevel, setDifficultyLevel] = useState<'easy' | 'medium' | 'hard'>('medium');
 
-  // ✅ NEW: Algorithm selection state
-  const [useDQN, setUseDQN] = useState<boolean>(false); // false = Q-Learning, true = DQN
+  // Algorithm selection state
+  const [useDQN, setUseDQN] = useState<boolean>(false);
 
   const baselineQuestionsCompleted = quizAnswers.filter(a => a !== undefined).length;
   const adaptiveQuestionsCompleted = adaptiveAnswers.filter(a => a !== undefined).length;
@@ -195,8 +195,6 @@ const Learn: React.FC = () => {
     };
   }, []);
 
-
-  
   const getCurrentQuestion = (): Question | null => {
     if (quizPhase === 'baseline') {
       return currentLessonIndex < LESSONS.length ? LESSONS[currentLessonIndex].question : null;
@@ -306,7 +304,7 @@ const Learn: React.FC = () => {
     }
   };
 
-  // Face detection with REAL confidence scores
+  // Face detection with REAL confidence scores - FIXED
   const detectFaceAndEmotion = useCallback(async () => {
     if (!videoRef.current || !videoRef.current.videoWidth || modelsLoading || modelsError) return;
     try {
@@ -331,10 +329,11 @@ const Learn: React.FC = () => {
         let dominantEmotion = 'neutral';
         let maxScore = 0;
         
+        // ✅ FIXED: Using 'score' variable correctly with type assertion
         for (const [exp, val] of Object.entries(expressions)) {
           const score = val as number;
-          if (val > maxScore) {
-            maxScore = val;
+          if (score > maxScore) {
+            maxScore = score;
             if (exp === 'happy') dominantEmotion = 'happy';
             else if (exp === 'sad') dominantEmotion = 'sad';
             else if (exp === 'angry') dominantEmotion = 'frustrated';
@@ -918,7 +917,7 @@ const Learn: React.FC = () => {
             </Button>
           )}
 
-          {/* ✅ Algorithm Toggle Buttons */}
+          {/* Algorithm Toggle Buttons */}
           <Box sx={{ display: 'flex', gap: 1, mt: 1, justifyContent: 'center' }}>
             <Button 
               size="small" 
