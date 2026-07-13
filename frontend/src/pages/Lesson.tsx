@@ -21,7 +21,7 @@ import axios from 'axios';
 import VideocamIcon from '@mui/icons-material/Videocam';
 import VideocamOffIcon from '@mui/icons-material/VideocamOff';
 import CloseIcon from '@mui/icons-material/Close';
-import * as faceapi from 'face-api.js';
+declare const faceapi: any;
 
 // ============ API Configuration ============
 const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
