@@ -29,7 +29,8 @@ import ScienceIcon from '@mui/icons-material/Science';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import VerifiedIcon from '@mui/icons-material/Verified';
 
-const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
+// ✅ FIXED: Use backticks (`) not single quotes (')
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`;
 
 interface DashboardData {
   user: {
@@ -386,7 +387,7 @@ const Dashboard: React.FC = () => {
                 <Typography variant="caption">With Emotion Adaptation</Typography>
                 <Box sx={{ mt: 1 }}>
                   <Chip 
-                    label={`Baseline: 55%`} 
+                    label="Baseline: 55%" 
                     size="small" 
                     variant="outlined"
                   />
