@@ -24,7 +24,7 @@ import axios from 'axios';
 import StorageIcon from '@mui/icons-material/Storage';
 import DownloadIcon from '@mui/icons-material/Download';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = '${process.env.REACT_APP_API_URL}/api/v1';
 
 interface TabPanelProps {
   children?: React.ReactNode;
