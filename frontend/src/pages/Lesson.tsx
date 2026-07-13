@@ -192,7 +192,7 @@ const Learn: React.FC = () => {
     };
   }, []);
 
-  const getCurrentLesson = () => LESSONS[currentLessonIndex];
+  // const getCurrentLesson = () => LESSONS[currentLessonIndex];
   const getCurrentQuestion = (): Question | null => {
     if (quizPhase === 'baseline') {
       return currentLessonIndex < LESSONS.length ? LESSONS[currentLessonIndex].question : null;
